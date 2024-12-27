@@ -1,0 +1,59 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+h1, h2 {
+    margin: 1rem 0;
+}
+
+.image-opacity-demo {
+    padding: 2rem;
+}
+
+/* Normal Image */
+.normal-image {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 2rem auto;
+}
+
+/* Transparent Image */
+.transparent-image {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 2rem auto;
+    opacity: 0.5; /* Sets the opacity */
+}
+
+/* Hover Effect Image */
+.hover-image {
+    width: 400px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 2rem auto;
+    transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.hover-image:hover {
+    opacity: 0.3; /* Reduced opacity on hover */
+}

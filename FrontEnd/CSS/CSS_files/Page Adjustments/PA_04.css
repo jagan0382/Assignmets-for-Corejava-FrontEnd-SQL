@@ -1,0 +1,46 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Box Styling */
+.box {
+    border: 2px solid black;
+    font-size: 16px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 20px; /* Center the box horizontally and add space below */
+}
+
+.red-box {
+    background-color: #ffcccc;
+    padding: 20px; /* Space inside the border */
+}
+
+.blue-box {
+    background-color: #cce5ff;
+    margin: 20px 40px; /* Space outside the border */
+}
+
+.green-box {
+    background-color: #ccffcc;
+    margin: 20px 40px; /* Space outside the border */
+    padding: 20px; /* Space inside the border */
+}

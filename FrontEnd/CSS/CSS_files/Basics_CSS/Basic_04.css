@@ -1,0 +1,21 @@
+/* Task 4: Height and Width */
+/* Demonstrating pixel and percentage-based sizes */
+.size-demo .size-box {
+    width: 200px;
+    height: 100px;
+    background-color: #e03b8b;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+}
+
+.size-demo .size-box-percentage {
+    width: 50%;
+    height: 50%;
+    background-color: #38cc77;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+}

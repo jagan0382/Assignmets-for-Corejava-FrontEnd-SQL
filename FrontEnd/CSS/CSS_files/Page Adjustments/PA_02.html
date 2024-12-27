@@ -1,0 +1,52 @@
+<!--Apply different visibility by an element (visibility: hidden, visible, collapse)
+   and use different types of display for an element (display: none, inline, block, contents, list-item)-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and Display Properties</title>
+    <link rel="stylesheet" href="PA_02.css">
+</head>
+<body>
+    <header>
+        <h1>Visibility and Display Properties Demo</h1>
+    </header>
+
+    <main>
+        <section class="visibility-demo">
+            <h2>Visibility Property</h2>
+            <p class="visible">This element is <strong>visible</strong>.</p>
+            <p class="hidden">This element is <strong>hidden</strong>, but still takes up space.</p>
+            <table>
+                <tr>
+                    <td>Row 1</td>
+                </tr>
+                <tr class="collapsed">
+                    <td>This row is collapsed.</td>
+                </tr>
+                <tr>
+                    <td>Row 3</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="display-demo">
+            <h2>Display Property</h2>
+            <div class="display-block">This element is displayed as a <strong>block</strong>.</div>
+            <div class="display-inline">This element is displayed as <strong>inline</strong>.</div>
+            <div class="display-none">This element is not displayed (display: none).</div>
+            <div class="display-contents">This element uses <strong>contents</strong>, so only its children are rendered.</div>
+            <ul>
+                <li class="list-item">This is a <strong>list-item</strong>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Experiment with visibility and display properties!</p>
+    </footer>
+</body>
+</html>

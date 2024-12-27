@@ -1,0 +1,78 @@
+<!--Develop your own web page basics.html with all the following html tags
+Html, head, title, body
+Heading, Paragraph, Italic, Bold, Anchor, Unordered List, List Item, label,
+Blockquote, Horizontal rule, Image, Division, Span-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML</title>
+    <style>
+        /* Applying pseudo-classes */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-elements */
+        p::first-line {
+            font-weight: bold;
+            color: blue;
+        }
+
+        div {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        span {
+            color: green;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Basics of HTML</h1>
+        <p>This is a sample webpage showcasing basic HTML tags and features.</p>
+    </header>
+
+    <section>
+        <h2>HTML Elements</h2>
+        <p>This <i>paragraph</i> contains <b>bold</b>, <span>italicized text</span>, and uses various elements.</p>
+        <a href="#list-section">Jump to List Section</a>
+         <!--blockqoute-->
+        <blockquote>
+            "HTML is the structure of a webpage, CSS is its style, and JavaScript is its behavior."
+        </blockquote>
+        <hr>
+        <img src="https://media.licdn.com/dms/image/v2/D5612AQFfhTEictqBHA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1721174916441?e=2147483647&v=beta&t=IqnGNJxS4J-yaL4rgLBlx-cbNAbFwpEMCRvkkLXsR48" alt="Example Image" width="300">
+    </section>
+
+    <section id="list-section">
+          <!--unordered list-->
+        <h2>Unordered List</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>Labels can be used in forms:</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+    </section>
+
+    <footer>
+        <h2>Using Divisions and Spans</h2>
+        <div>
+            <p>This is a division block.</p>
+            <p>Another paragraph inside the division block.</p>
+        </div>
+        <p>This is a <span>span element</span> used to style inline content.</p>
+    </footer>
+</body>
+</html>

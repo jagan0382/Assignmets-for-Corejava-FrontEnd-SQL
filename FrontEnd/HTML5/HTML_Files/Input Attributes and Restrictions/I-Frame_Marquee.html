@@ -1,0 +1,64 @@
+<!--Use I-frames and Marquee in your webpage.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe and Marquee Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        iframe {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            height: 300px;
+        }
+
+        marquee {
+            color: white;
+            background-color: #3944F7;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iframe and Marquee</h1>
+
+    <!-- Marquee Example -->
+    <marquee behavior="scroll" direction="left">
+        Welcome to the dynamic webpage! Enjoy the scrolling text effect.
+    </marquee>
+
+    <marquee behavior="alternate" direction="right" style="background-color: #FF5733;">
+        This is a marquee scrolling alternately.
+    </marquee>
+
+    <!-- Iframe Example -->
+    <h2>Embedded Website using Iframe</h2>
+    <iframe src="https://www.wikipedia.org" title="Wikipedia"></iframe>
+
+    <h2>Custom Content in Iframe</h2>
+    <iframe name="custom-content" srcdoc="
+        <html>
+            <body style='font-family: Arial; text-align: center; background-color: #f4f4f4;'>
+                <h3>Welcome to the Custom Iframe!</h3>
+                <p>This is a webpage embedded within another webpage.</p>
+                <a href='https://www.google.com' target='_blank'>Go to Google</a>
+            </body>
+        </html>
+    "></iframe>
+</body>
+</html>

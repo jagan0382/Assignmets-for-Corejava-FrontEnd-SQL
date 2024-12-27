@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Fruits Array</title>
+    <script>
+        // Initial array of fruits
+        const fruits = ["Apple", "Banana", "Cherry", "Mango", "Orange", "Pineapple", "Grapes"];
+
+        // Function to sort and display the array in descending order
+        function sortFruits() {
+            // Sort the fruits array in descending order
+            fruits.sort(function(a, b) {
+                return b.localeCompare(a); // Sorting in descending order
+            });
+
+            // Display the sorted array
+            document.getElementById("fruit-list").innerHTML = fruits.join(", ");
+        }
+    </script>
+</head>
+<body>
+    <h1>Fruit Names Sorting</h1>
+
+    <!-- Displaying the unsorted array -->
+    <p>Fruits (Unsorted):</p>
+    <p id="fruit-list">
+        <!-- Initial list of fruits -->
+        Apple, Banana, Cherry, Mango, Orange, Pineapple, Grapes
+    </p>
+
+    <!-- Button to trigger sorting -->
+    <button onclick="sortFruits()">Sort Fruits in Descending Order</button>
+</body>
+</html>

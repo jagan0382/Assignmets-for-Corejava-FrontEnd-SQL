@@ -1,0 +1,93 @@
+<!-- Apply all of the below input restrictions 
+disabled, max, maxlength, min, readonly, required, size, value -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Restrictions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Input Restrictions Example</h2>
+
+        <!-- Disabled Input -->
+        <label for="disabled-input">Disabled Input:</label>
+        <input type="text" id="disabled-input" value="Disabled" disabled>
+
+        <!-- Max Attribute -->
+        <label for="max-input">Max Attribute (Max value = 10):</label>
+        <input type="number" id="max-input" name="max-input" max="10" placeholder="Enter a number up to 10">
+
+        <!-- Maxlength Attribute -->
+        <label for="maxlength-input">Maxlength Attribute (Max 10 characters):</label>
+        <input type="text" id="maxlength-input" name="maxlength-input" maxlength="10" placeholder="Max 10 characters">
+
+        <!-- Min Attribute -->
+        <label for="min-input">Min Attribute (Min value = 5):</label>
+        <input type="number" id="min-input" name="min-input" min="5" placeholder="Enter a number above 5">
+
+        <!-- Readonly Input -->
+        <label for="readonly-input">Readonly Input:</label>
+        <input type="text" id="readonly-input" value="Read-only Text" readonly>
+
+        <!-- Required Field -->
+        <label for="required-input">Required Field:</label>
+        <input type="text" id="required-input" name="required-input" placeholder="Required Field" required>
+
+        <!-- Size Attribute -->
+        <label for="size-input">Size Attribute (Width = 15 characters):</label>
+        <input type="text" id="size-input" name="size-input" size="15" placeholder="15 char width">
+
+        <!-- Default Value -->
+        <label for="value-input">Default Value:</label>
+        <input type="text" id="value-input" name="value-input" value="Default Value">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

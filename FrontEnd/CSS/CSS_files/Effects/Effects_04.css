@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .overflow-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    overflow: auto;
+  }
+  
+  /* Horizontal Scroll */
+  .horizontal-scroll {
+    white-space: nowrap;
+    width: 300px;
+    height: 150px;
+  }
+  
+  /* Vertical Scroll */
+  .vertical-scroll {
+    width: 300px;
+    height: 150px;
+  }
+  
+  /* Both Horizontal and Vertical Scroll */
+  .both-scroll {
+    width: 300px;
+    height: 150px;
+  }
+  

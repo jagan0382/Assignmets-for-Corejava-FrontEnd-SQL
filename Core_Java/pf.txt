@@ -1,0 +1,5 @@
+#This is a sample properties file
+#Thu Dec 26 11:23:23 IST 2024
+College=ICFAI Tech
+E.no=317
+Name=Sharan

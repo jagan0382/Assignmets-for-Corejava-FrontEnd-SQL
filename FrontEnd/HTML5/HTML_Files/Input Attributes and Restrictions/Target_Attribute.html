@@ -1,0 +1,53 @@
+<!--4. Develop a web page using target attribute.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Attribute Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        a {
+            display: block;
+            margin: 10px 0;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demonstration of the Target Attribute</h1>
+    <p>The <code>target</code> attribute specifies where to open the linked document. Below are examples:</p>
+    
+    <ul>
+        <li>
+            <a href="https://www.google.com" target="_blank">Open Google in a new tab</a>
+        </li>
+        <li>
+            <a href="https://www.wikipedia.org" target="_self">Open Wikipedia in the same tab</a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com" target="_parent">Open Twitter in the parent frame</a>
+        </li>
+        <li>
+            <a href="https://www.github.com" target="_top">Open GitHub in the full body of the window</a>
+        </li>
+        <!-- <li>
+            <a href="about.html" target="custom-frame">Open About Page in a named frame</a>
+        </li> -->
+    </ul>
+
+    <!-- <h2>Iframe Example with Named Target</h2>
+    <iframe name="custom-frame" width="100%" height="200" style="border: 1px solid #ccc;"></iframe> -->
+</body>
+</html>

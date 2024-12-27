@@ -1,0 +1,146 @@
+
+<!--Use all the HTML5 tags and develop a web page
+article, aside, figcaption, figure,footer,header, hgroup,mark,nav, section,time
+All tags are used below, these tags are just different body types-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Tags Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #3944f7;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e03b8b;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        article {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+        aside {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        figcaption {
+            font-style: italic;
+        }
+
+        hgroup {
+            margin-bottom: 10px;
+        }
+
+        mark {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the HTML5 Tags Example</h1>
+        <p>This page demonstrates various HTML5 semantic tags.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+    </nav>
+
+    <!-- Main Content -->
+    <section id="section1">
+        <h2>Section 1: Introduction</h2>
+        <p>This section introduces the webpage.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2: Articles</h2>
+
+        <!-- Article 1 -->
+        <article>
+            <hgroup>
+                <h3>Article 1: HTML5 Overview</h3>
+                <h4>Understanding the Basics</h4>
+            </hgroup>
+            <p>HTML5 is the latest version of the Hypertext Markup Language, the standard for structuring content on the web. It includes new features such as semantic tags, improved multimedia support, and better performance.</p>
+            <p><mark>HTML5 introduces new tags that help with accessibility, SEO, and maintainability.</mark></p>
+        </article>
+
+        <!-- Article 2 -->
+        <article>
+            <hgroup>
+                <h3>Article 2: HTML5 Forms</h3>
+                <h4>Creating Modern Forms</h4>
+            </hgroup>
+            <p>HTML5 introduces new input types, validation features, and other enhancements to improve form design and functionality.</p>
+        </article>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3: Multimedia and Layout</h2>
+
+        <!-- Aside (Sidebar) -->
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="https://www.w3.org/TR/html5/" target="_blank">HTML5 Specification</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+            </ul>
+        </aside>
+
+        <!-- Figure and Figcaption -->
+        <figure>
+            <img src="https://via.placeholder.com/400x200" alt="HTML5 Logo">
+            <figcaption>This is a placeholder image of the HTML5 logo.</figcaption>
+        </figure>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 HTML5 Example | All Rights Reserved</p>
+        <p><time datetime="2024-01-01">Last updated on January 1, 2024</time></p>
+    </footer>
+
+</body>
+</html>

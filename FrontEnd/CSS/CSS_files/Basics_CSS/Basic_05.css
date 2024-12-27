@@ -1,0 +1,12 @@
+
+/* Task 5: Fonts and Text Styles */
+/* Applying different font styles, sizes, families, colors, and alignment */
+.text-styling .font-sample {
+    font-family: 'Arial', sans-serif; /* Arial font family */
+    font-size: 20px; /* Font size of 20px */
+    font-style: italic; /* Italic text */
+    text-align: justify; /* Justified alignment */
+    color: #3944f7; /* Blue text color */
+    margin: 20px;
+    line-height: 1.5;
+}

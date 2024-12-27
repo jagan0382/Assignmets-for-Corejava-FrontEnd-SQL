@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+/* Visibility Demo */
+.visibility-demo p {
+    margin: 1rem 0;
+}
+
+.visible {
+    visibility: visible; /* Visible element */
+    background-color: #d1f7c4;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+.hidden {
+    visibility: hidden; /* Hidden element */
+    background-color: #f7c4c4;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.collapsed {
+    visibility: collapse; /* Collapse a table row */
+}
+
+/* Display Demo */
+.display-demo div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.display-block {
+    display: block; /* Block element */
+    background-color: #d1e7f7;
+}
+
+.display-inline {
+    display: inline; /* Inline element */
+    background-color: #f7d1f7;
+}
+
+.display-none {
+    display: none; /* Hidden element (not rendered) */
+    background-color: #f4d4d4;
+}
+
+.display-contents {
+    display: contents; /* Renders only children */
+    color: #333;
+}
+
+.list-item {
+    display: list-item; /* List item display */
+    margin-left: 20px;
+    background-color: #f7f7d1;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

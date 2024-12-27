@@ -1,0 +1,12 @@
+.hero {
+    height: 100vh;
+    background-image: url('https://th.bing.com/th/id/OIP.Rni6VTrkqpapDAyWo1RkGgHaEo?w=252&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

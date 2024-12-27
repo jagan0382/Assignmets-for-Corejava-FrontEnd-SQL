@@ -1,0 +1,102 @@
+
+<!--HTML5 input Types
+type=number, range, color, date, file, time, month, week, email-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Input Types</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            padding: 20px;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+
+        input[type="number"],
+        input[type="range"],
+        input[type="color"],
+        input[type="date"],
+        input[type="file"],
+        input[type="time"],
+        input[type="month"],
+        input[type="week"],
+        input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>HTML5 Input Types</h1>
+
+        <!-- Number Input -->
+        <label for="quantity">Enter a Number:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100">
+
+        <!-- Range Input -->
+        <label for="range">Select a Range:</label>
+        <input type="range" id="range" name="range" min="0" max="50">
+
+        <!-- Color Input -->
+        <label for="color">Choose a Color:</label>
+        <input type="color" id="color" name="color">
+
+        <!-- Date Input -->
+        <label for="date">Pick a Date:</label>
+        <input type="date" id="date" name="date">
+
+        <!-- File Input -->
+        <label for="file">Upload a File:</label>
+        <input type="file" id="file" name="file">
+
+        <!-- Time Input -->
+        <label for="time">Select a Time:</label>
+        <input type="time" id="time" name="time">
+
+        <!-- Month Input -->
+        <label for="month">Select a Month:</label>
+        <input type="month" id="month" name="month">
+
+        <!-- Week Input -->
+        <label for="week">Select a Week:</label>
+        <input type="week" id="week" name="week">
+
+        <!-- Email Input -->
+        <label for="email">Enter your Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com">
+
+        <button type="submit" style="margin-top: 10px; padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!--A long page which should have two links "click to go to bottom of page" 
+  and "click to go to top of page" . Also set their scroll-behavior to scroll 
+  smoothly.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Navigation</title>
+    <link rel="stylesheet" href="PA_03.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Long Page</h1>
+        <nav>
+            <a href="#bottom" class="nav-link">Click to go to Bottom of Page</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h2>Content Section</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
+                Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+            </p>
+            <p>Scroll down to navigate the page!</p>
+            <!-- Repeated content to simulate a long page -->
+            <div class="spacer"></div>
+        </section>
+
+        <section id="bottom">
+            <h2>Bottom of the Page</h2>
+            <p>You have reached the end of the page.</p>
+            <a href="#top" class="nav-link">Click to go to Top of Page</a>
+        </section>
+    </main>
+</body>
+</html>

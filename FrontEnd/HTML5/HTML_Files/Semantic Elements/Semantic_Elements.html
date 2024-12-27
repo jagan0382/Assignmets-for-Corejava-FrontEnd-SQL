@@ -1,0 +1,134 @@
+<!--2. Develop a web page with the semantic elements <form>, <table> and <article>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .form-section, .article-section {
+            background-color: #fafafa;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #3944F7;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Semantic Elements Example: <form>, <table>, and <article></h1>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+    <!-- Table Section -->
+    <section class="table-section">
+        <h2>Product Inventory</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Apple</td>
+                    <td>$2.00</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Banana</td>
+                    <td>$1.50</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Orange</td>
+                    <td>$2.50</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Article Section -->
+    <section class="article-section">
+        <h2>Latest Article</h2>
+        <article>
+            <h3>Understanding Web Development</h3>
+            <p>Web development is the process of building and maintaining websites. It involves everything from designing the layout to writing code and creating interactive elements. Web development is crucial in today's world as it shapes the online presence of businesses, organizations, and individuals.</p>
+            <p>There are two main categories of web development: front-end (client-side) and back-end (server-side). Front-end developers work on the parts of a website that users interact with, while back-end developers focus on the server-side logic, databases, and integrations.</p>
+        </article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Example Company | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

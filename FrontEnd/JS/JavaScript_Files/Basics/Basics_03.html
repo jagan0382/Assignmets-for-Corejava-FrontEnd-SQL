@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For-In Loop Example</title>
+    <script>
+        // Define an object with properties
+        const person = {
+            name: "JAGAN",
+            age: 30,
+            job: "Developer",
+            country: "INDIA"
+        };
+
+        // Function to display object properties
+        function displayProperties() {
+            let result = "";
+            
+            // Using the for...in loop to iterate over the object properties
+            for (let property in person) {
+                // Check if the property belongs to the person object itself
+                if (person.hasOwnProperty(property)) {
+                    result += `${property}: ${person[property]}<br>`;
+                }
+            }
+
+            // Display the result on the webpage
+            document.getElementById("output").innerHTML = result;
+        }
+    </script>
+</head>
+<body>
+    <h1>Using For-In Loop</h1>
+
+    <!-- Button to trigger displaying the properties -->
+    <button onclick="displayProperties()">Display Properties</button>
+
+    <!-- Section to display the output -->
+    <div id="output"></div>
+</body>
+</html>

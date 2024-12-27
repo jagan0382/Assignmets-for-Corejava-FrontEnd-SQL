@@ -1,0 +1,14 @@
+/* Task 3: Borders */
+/* This section demonstrates different border styles on each side */
+.borders-demo .border-box {
+    width: 300px;
+    height: 100px;
+    border-top: 5px solid red; /* Solid red top border */
+    border-right: 5px dashed blue; /* Dashed blue right border */
+    border-bottom: 5px dotted green; /* Dotted green bottom border */
+    border-left: 5px double black; /* Double black left border */
+    margin: 20px auto;
+    text-align: center;
+    line-height: 100px;
+    background-color: #f9f9f9;
+}
